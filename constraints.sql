@@ -1,0 +1,22 @@
+create table rules ( id int unique, name varchar (20) not null , age int check(age>18), country varchar(10) default "India");
+insert into rules (id, name,age)values (1,"suman",30);
+select* from rules;
+insert into rules (id, name,age)values (5,"sharmila",21);
+insert into rules (id, age)values (2,25);
+insert into rules (id, name,age)values (4,"seema",20);
+select* from student ;
+delete from student where sno>4;
+update student set age=20 where sno>4;
+alter table student modify sid int unique;
+alter table student modify name varchar(30) not null;
+alter table student modify age int check (age>18);
+alter table student modify doa date default (now());
+insert into student (sid, age,sno) values (3,17,5);
+insert into student (sid, name,age,sno) values (3,"rahul",17,5);
+insert into student (sid, name,age,sno) values (5,"rahul",20,5);
+create table pritable(id int primary key, name varchar(20) primary key);
+create table pritable(id int, name varchar(20) ,primary key(id,name));
+insert into pritable values ( 1, "kirat");
+select* from pritable;
+insert into pritable(id, name) values(1, "sonal");
+
