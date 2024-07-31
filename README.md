@@ -1,2 +1,1 @@
-Superstore Data Analysis Dashboard
-This is an interactive report built using Tableau provides a comprehensive analysis of the data with the help of KPI'S, Bar chart, Pie chart, Trend line  . sales performance of the store categoricaly and also sub actegory wise . The trend line chart shows the quarter wise perfomance on the basis of orders . Also created a interactive dashboard to show the detailed analysis of sales. 
+
